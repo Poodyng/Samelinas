@@ -1,0 +1,58 @@
+.activity {
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 5px 6px 19px rgba(62, 72, 118, 0.04);
+    border-radius: 20px;
+    &__block {
+        display: flex;
+        gap: 12px;
+
+        &:not(:last-child) {
+            margin: 24px 0;
+        }
+    }
+
+    &__img {
+
+    }
+
+    &__text {
+
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #070721;
+
+    }
+
+    &__sub-title {
+        margin: 4px 0 0 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8E8C99;
+    }
+
+    &__blue {
+        color: #3162FF;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &__times {
+        margin-left: auto;
+    }
+
+    &__time {
+        margin: 0 0 0 8px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8E8C99;
+
+    }
+}

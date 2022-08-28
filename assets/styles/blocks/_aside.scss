@@ -1,0 +1,33 @@
+.aside {
+    position: relative;
+
+    &__wrapper {
+        position: sticky;
+        top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 28px 0 32px;
+        transition: var(--transition);
+        min-height: calc(100vh - 40px);
+        background-color: var(--color-white);
+        box-shadow: 5px 6px 19px var(--shadow);
+    }
+
+    &__navigation {}
+
+    &__settings {
+        button {
+            &:hover {
+                svg {
+                    path {
+                        stroke: var(--color-dark);
+                    }
+                }
+            }
+        }
+    }
+}

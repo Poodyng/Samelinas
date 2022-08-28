@@ -1,0 +1,45 @@
+.eth {
+    position: relative;
+    padding: 112px 0 36px;
+    display: flex;
+    justify-content: space-between;
+    &__card {
+        padding: 24px 0 0 0;
+
+        display: flex;
+        gap: 77px;
+        padding: 94px 20px 20px 20px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    &__text {
+
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #070721;
+    }
+
+    &__sub-title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #8E8C99;
+        margin: 8px 0 0 0;
+    }
+
+    &__img {
+        margin: 29px 0 0 0;
+    }
+
+    &__fonn {
+        position: absolute;
+        top: 60%;
+        margin-left: 12px;
+        transform: translateY(-100%);
+    }
+}

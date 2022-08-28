@@ -1,0 +1,127 @@
+.header {
+    &__inner-wrapper {
+        width: max-content;
+    }
+
+    &__search {
+        display: flex;
+        padding: 14px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #989BA5;
+        min-width: 288px;
+        transition: var(--transition);
+        background: var(--color-white);
+
+        svg {
+            margin-right: 12px;
+            transition: var(--transition);
+
+            path {
+                fill: var(--color-dark);
+                transition: var(--transition);
+            }
+        }
+
+        input {
+            &::placeholder {
+                color: var(--color-dark);
+                transition: var(--transition);
+            }
+        }
+    }
+
+
+    &__icon {
+        display: flex;
+    }
+
+    &__icon-block {
+        display: flex;
+        gap: 6px;
+        padding: 6px;
+        border-radius: 16px;
+        transition: var(--transition);
+        background: var(--color-white);
+
+        label {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 13px;
+
+            &.white-theme {
+                background: url("../../assets/images/icons/sun.svg") center center / contain no-repeat;
+            }
+
+            &.black-theme {
+                background: url("../../assets/images/icons/moon.svg") center center / contain no-repeat;
+            }
+        }
+
+        input {
+            display: none;
+            appearance: none;
+            position: absolute;
+
+            &:checked + label {
+                border: 1px solid var(--color-blue);
+
+                --color-white: red;
+            }
+        }
+
+    }
+
+    &__icon-block-colocol {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 52px;
+        height: 52px;
+        background: var(--color-white);
+        border-radius: 16px;
+        margin-left: 28px;
+        transition: var(--transition);
+
+        svg {
+            path {
+                stroke: var(--color-dark);
+                transition: var(--transition);
+            }
+        }
+    }
+
+    &__user {
+        display: flex;
+    }
+
+    &__info {
+        margin: 0 12px 0 28px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-dark);
+        transition: var(--transition);
+    }
+
+    &__sub-title {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #989BA5;
+    }
+
+    &__gold-text {
+        color: #FFAD31;
+    }
+
+    &__img {
+        width: 52px;
+        height: 52px;
+    }
+}

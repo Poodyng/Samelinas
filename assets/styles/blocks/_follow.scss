@@ -1,0 +1,55 @@
+.follow {
+    &__items {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__block {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px 22px 20px;
+        background: #FFFFFF;
+        box-shadow: 5px 6px 19px rgba(62, 72, 118, 0.04);
+        border-radius: 20px;
+    }
+
+    &__img {
+
+    }
+
+    &__text {
+        margin: 0 56px 0 12px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #070721;
+
+    }
+
+    &__sub-title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #8E8C99;
+        margin: 4px 0 0 0;
+    }
+
+    &__btn {
+ 
+    }
+
+    &__button {
+        padding: 12px 26px 12px 27px;
+        background: #3162FF;
+        border-radius: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        gap: 8px;
+        color: #FFFFFF;
+    }
+}

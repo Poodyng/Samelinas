@@ -1,0 +1,27 @@
+.button {
+    padding: 12px 22px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: var(--color-blue);
+    border-radius: 16px;
+    min-width: 164px;
+    box-shadow: 5px 6px 19px rgba(62, 72, 118, 0.04);
+
+    &:hover {
+        background: #2040a5;
+    }
+
+    &--transparent {
+        color: #3162FF;
+        background: transparent;
+        border: 2px solid var(--color-blue);
+
+        &:hover {
+            color: #FFFFFF;
+            background: var(--color-blue);
+        }
+    }
+}

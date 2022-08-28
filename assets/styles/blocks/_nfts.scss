@@ -1,0 +1,33 @@
+.nfts {
+
+    padding: 25px 0 24px;
+
+
+    &__icon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card {
+        padding: 12px 20px;
+        background: var(--color-white);
+        border-radius: 29px;
+        display: flex;
+        gap: 12px;
+        cursor: pointer;
+        transition: var(--transition);
+    }
+
+    &__img {
+        width: 20px;
+        height: 20px;
+    }
+
+    &__icon-text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--color-dark);
+        transition: var(--transition);
+    }
+}
